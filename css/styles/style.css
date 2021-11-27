@@ -1,0 +1,431 @@
+.brand-animate {
+    -webkit-animation: rotate 1s infinite linear;
+    animation: rotate 1s infinite linear;
+
+    transform-origin: 24px 24px;
+    -webkit-transform-origin: 24px 24px;
+
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+    -webkit-transition: all 0.3s ease-in-out;
+  	transition: all 0.3s ease-in-out;
+
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.pace-running .brand-animate{
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+
+.pace-done .brand-animate{
+    opacity: 0;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.box1
+{
+  background-color: #1006f3eb;
+  
+}
+.box2
+{
+  background-color: #1293f9;
+}
+.box3
+{
+  background-color: #dd8810d4;
+}
+.box4
+{
+  background-color: #cb3c38;
+}
+.box-header
+{
+  padding-bottom:0px;
+  color: white;
+}
+
+.nav-stacked .nav > li:not(.nav-header) {
+  padding: 0.7rem 0.5rem;
+}
+
+.box-header1 {
+ 
+  color: #252424;
+}
+.nav-pills .nav-item.open .nav-link, .nav-pills .nav-item.open .nav-link:focus, .nav-pills .nav-item.open .nav-link:hover, .nav-pills .nav-link.active, .nav-pills .nav-link.active:focus, .nav-pills .nav-link.active:hover {
+  color: black;
+  cursor: default;
+  background-color: #626e7870;
+}
+
+.nav-pills .nav-link {
+  display: block;
+  padding: 0.5em 1em;
+  border-radius: 0rem;
+}
+.nav-pills .nav-item+.nav-item {
+  margin-left: -1px;
+}
+.nav-pills .nav-item {
+  float: left;
+  border: 1px solid #00000008;
+}
+.nav-pills{
+  margin-left: 75%;
+}
+.w-24 {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  font-size: 22px;
+}
+i[class*="ion-"], i[class*=" ion-"] {
+  font-size: 22px;
+  vertical-align: -2px;
+}
+
+.btn-download
+{
+  background-color: #3123bc;
+  color: white;
+  margin-left: 16px;
+}
+.green
+{
+  background-color: #269d7f;
+}
+
+.violet
+{
+  background-color:#2112c1;
+}
+
+.navside .nav li a:hover, .navside .nav li a:active {
+  background-color: rgba(255, 255, 255, 0.065);
+}
+#example td
+{
+  margin-left:2%;
+}
+.box .dataTables_wrapper {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btn-div
+{
+  float:right;
+  margin-top: -17px;
+}
+.b-info
+{
+  float:left;
+  margin-top: -7px;
+  margin-right: 7px;
+}
+
+#btns
+{
+  float:right;
+  margin-top: -7px;
+
+}
+.dt-button
+{
+  width: 100px;
+height: 37px;
+border:0px;
+background-color: #0000ffc7;
+color: white;
+border-radius: 7px;
+}
+.dataTables_wrapper .dataTables_length {
+  float: right;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: transparent;
+  margin-left: 3px;
+  width: 250px;
+}
+
+.dataTables_wrapper .dataTables_filter {
+  float: left;
+  text-align: right;
+}
+th input
+{
+  font-weight: 100;
+    font-size: 12px;
+    border: 1px solid #80808070;
+    padding: 4px
+}
+
+.success {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1be683;
+  min-width: 3rem;
+  line-height: 0.55;
+}
+
+.voir {
+  float: left;
+   margin-top: 0px; 
+   margin-right: 0px; 
+}
+.form-control
+{
+  width: 70%;
+  font-size: 14px;
+}
+.form-group
+{
+  margin-left: 4%;
+}
+.color-blue
+{
+  color:#024EF9!important;
+}
+@media (min-width: 768px){
+ .form-label {
+    float: left;
+    width: 12.333333%;
+}}
+
+.padding {
+  padding: 1.5rem 3.5rem;
+}
+@media (min-width: 1920px){
+.padding {
+  padding: 1.5rem 5.5rem;
+}
+}
+.nav-pages .nav-item {
+  float: left;
+   border: 0px solid #00000008;
+}
+
+.nav-pages a {
+  color: #1180cf;
+  cursor: pointer;
+  background-color: #626e7800;
+  font-weight: 550;
+  font-size: 14px;
+}
+.nav-pages
+{
+  margin-top: 9px;
+}
+.nav-pages .nav-link.active, .nav-pages .nav-link.active:focus, .nav-pages .nav-link.active:hover {
+  color: white;
+  cursor: default;
+  background-color: #024EF9;
+}
+.nav-pages > .nav-item > .nav-link{
+  padding-left: 33px;
+  padding-right: 33px;
+  line-height: 2.5rem;
+  white-space: nowrap;
+}
+.box-header1 h3
+{
+  font-weight: 550;
+  color: #403a3ab8;
+  margin-left: 2%;
+  margin-top: 20px;
+}
+.mb-5
+{
+  margin-bottom:150px;
+}
+.mt-2
+{
+  margin-top:30px;
+}
+.input-group {
+  position: relative;
+  width: 70%;
+  display: table;
+  border-collapse: separate;
+}
+.input-group-addon {
+  line-height: 0.25;
+  border-color: rgba(120, 130, 140, 0.2) !important;
+  background-color: #c1c1c13b;
+  color: inherit;
+  color: #00000066;
+  font-size: 13px;
+}
+.help-block
+{
+  color: #00000087;
+    font-size: 10px;
+    margin-left: 17px;
+}
+.p-a{
+  position:absolute;
+  right:0px;
+}
+#error
+{
+  color:red;
+}
+.gray
+{
+  color: #6969697a;
+}
+
+.retour
+{
+  font-size: 17px;
+}
+.table-responsive {
+  /* display: block; */
+
+  margin-top: 4%;
+  
+}
+.white
+{
+  font-size: 13px;
+  color:grey;
+}
+.input-sm
+{
+  width:40%;
+}
+
+.pagination .page-item.active, .pagination > .active > a, .pagination > .active > span, .pager .page-item.active, .pager > .active > a, .pager > .active > span {
+  color: white !important;
+  background-color: #024EF9 !important;
+  border-color: #024EF9 !important;
+}
+.success .disabled,.warning{
+  
+  min-width: 3rem;
+  line-height: 1.55;
+}
+.a-info
+{
+  color: white!important;
+  cursor: default;
+  background-color: #024EF9;
+}
+
+span.multiselect-native-select {
+	position: relative
+}
+span.multiselect-native-select select {
+	border: 0!important;
+	clip: rect(0 0 0 0)!important;
+	height: 1px!important;
+	margin: -1px -1px -1px -3px!important;
+	overflow: hidden!important;
+	padding: 0!important;
+	position: absolute!important;
+	width: 1px!important;
+	left: 50%;
+	top: 30px
+}
+.multiselect-container {
+	position: absolute;
+	list-style-type: none;
+	margin: 0;
+	padding: 0
+}
+.multiselect-container .input-group {
+	margin: 5px
+}
+.multiselect-container>li {
+	padding: 0
+}
+.multiselect-container>li>a.multiselect-all label {
+	font-weight: 700
+}
+.multiselect-container>li.multiselect-group label {
+	margin: 0;
+	padding: 3px 20px 3px 20px;
+	height: 100%;
+	font-weight: 700
+}
+.multiselect-container>li.multiselect-group-clickable label {
+	cursor: pointer
+}
+.multiselect-container>li>a {
+	padding: 0
+}
+.multiselect-container>li>a>label {
+	margin: 0;
+	height: 100%;
+	cursor: pointer;
+	font-weight: 400;
+	padding: 3px 0 3px 30px
+}
+.multiselect-container>li>a>label.radio, .multiselect-container>li>a>label.checkbox {
+	margin: 0
+}
+.multiselect-container>li>a>label>input[type=checkbox] {
+	margin-bottom: 5px
+}
+.btn-group>.btn-group:nth-child(2)>.multiselect.btn {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px
+}
+.form-inline .multiselect-container label.checkbox, .form-inline .multiselect-container label.radio {
+	padding: 3px 20px 3px 40px
+}
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox], .form-inline .multiselect-container li a label.radio input[type=radio] {
+	margin-left: -20px;
+	margin-right: 0
+}
+.btn-block {
+  display: block;
+  width: 70%;
+}
+
+table.dataTable.no-footer {
+   border-bottom: 0px solid #111!important; 
+}
+
+.boxes
+{
+  padding-top: 40px;
+}
+.dataTables_info
+{
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+.dataTables_paginate
+{
+  margin-top: 20px;
+  margin-bottom:20px;
+}
