@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>aside - Bootstrap 4 web application</title>
+    <meta name="description" content="Responsive, Bootstrap, BS4" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- for ios 7 style, multi-resolution icon of 152x152 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-barstyle" content="black-translucent">
+    <link rel="apple-touch-icon" href="images/logo.png">
+    <meta name="apple-mobile-web-app-title" content="Flatkit">
+    <!-- for Chrome on Android, multi-resolution icon of 196x196 -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="shortcut icon" sizes="196x196" href="images/logo.png">
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/animate.css/animate.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/glyphicons/glyphicons.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/material-design-icons/material-design-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/ionicons/css/ionicons.min.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+
+    <!-- build:css css/styles/app.min.css -->
+    <link rel="stylesheet" href="css/styles/app.css?v=1" type="text/css" />
+    <link rel="stylesheet" href="css/styles/style.css?v=9" type="text/css" />
+    <!-- endbuild -->
+    <link rel="stylesheet" href="css/styles/font.css" type="text/css" />
+</head>
+
+<body>
+    <div class="app" id="app">
+
+        <!-- ############ LAYOUT START-->
+
+        <!-- aside -->
+        <div id="aside" class="app-aside fade nav-dropdown black">
+            <!-- fluid app aside -->
+            <div class="navside dk" data-layout="column">
+                <div class="navbar no-radius text-center">
+                  <!-- brand -->
+                  <a href="index.html" class="navbar-brand">
+                      
+                  
+                      <span class="hidden-folded inline">Spendlly Admin</span>
+                  </a>
+                  <!-- / brand -->
+                </div>
+                <div data-flex class="hide-scroll">
+                    <nav class="scroll nav-stacked nav-stacked-rounded nav-color">
+                      
+                      <ul class="nav" data-ui-nav>
+                        <li class="nav-header hidden-folded">
+                          <span class="text-xs">&nbsp;</span>
+                        
+                        </li>
+                        <li>
+                          <a href="index.html" class="b-danger active">
+                            <span class="nav-icon text-white no-fade">
+                              <i class="ion-filing"></i>
+                            </span>
+                            <span class="nav-text">Dashboard</span>
+                          </a>
+                        </li>
+                       
+                      
+                     
+                        <li>
+                          <a>
+                            <span class="nav-caret">
+                              <i class="fa fa-caret-down"></i>
+                            </span>
+                            <span class="nav-icon">
+                              <i class="fa fa-barcode"></i>
+                            </span>
+                            <span class="nav-text">Produits</span>
+                          </a>
+                          <ul class="nav-sub nav-mega nav-mega-3">
+                            <li>
+                              <a href="product.html" >
+                                <span class="nav-text">Liste des Produits</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="brand.html" >
+                                <span class="nav-text">Liste des marques</span>
+                              </a>
+                            </li>
+                           
+                        </ul>
+                        <li>
+                          <a>
+                            <span class="nav-caret">
+                              <i class="fa fa-caret-down"></i>
+                            </span>
+                            <span class="nav-icon">
+                              <i class="fa fa-dollar"></i>
+                            </span>
+                            <span class="nav-text">Ventes</span>
+                          </a>
+                          <ul class="nav-sub nav-mega">
+                            <li>
+                              <a href="general.html" >
+                                <span class="nav-text">Clients</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="commandes.html" >
+                                <span class="nav-text">Commandes</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="general.html" >
+                                <span class="nav-text">Factures</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="general.html" >
+                                <span class="nav-text">Avoirs</span>
+                              </a>
+                            </li>
+                         
+                          </ul>
+                        </li>
+                      
+                        <li>
+                          <a>
+                            <span class="nav-caret">
+                              <i class="fa fa-caret-down"></i>
+                            </span>
+                            <span class="nav-icon">
+                              <i class="fa fa-tag"></i>
+                            </span>
+                            <span class="nav-text">Achats</span>
+                          </a>
+                          <ul class="nav-sub">
+                            <li>
+                              <a href="list-four.html" >
+                                <span class="nav-text">Liste des fournisseurs</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="commandes.html" >
+                                <span class="nav-text">Commandes</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="general.html" >
+                                <span class="nav-text">Approvisionement</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="general.html" >
+                                <span class="nav-text">Inventaire</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="general.html" >
+                                <span class="nav-text">Paiments fournisseurs</span>
+                              </a>
+                            </li>
+                           
+                          </ul>
+                        </li>
+                      
+                        <li>
+                          <a>
+                            <span class="nav-caret">
+                              <i class="fa fa-caret-down"></i>
+                            </span>
+                            <span class="nav-icon">
+                              <i class="fa fa-list"></i>
+                            </span>
+                            <span class="nav-text">Comptablite</span>
+                          </a>
+                          <ul class="nav-sub">
+                            <li>
+                              <a href="general.html" >
+                                <span class="nav-text">Export facture Clients</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="general.html" >
+                                <span class="nav-text">Export Command fournisseurs</span>
+                              </a>
+                            </li>
+                            <!-- <li>
+                              <a href="footable.html" >
+                                <span class="nav-text">Footable</span>
+                              </a>
+                            </li> -->
+                          </ul>
+                        </li>
+                        <li>
+                          <a>
+                            <span class="nav-caret">
+                              <i class="fa fa-caret-down"></i>
+                            </span>
+                            <span class="nav-icon">
+                              <i class="fa  fa-bar-chart-o"></i>
+                             
+                            </span>
+                            <span class="nav-text">Charts</span>
+                          </a>
+                          <ul class="nav-sub">
+                            <li>
+                              <a href="chart.html" >
+                                <span class="nav-text">Ventes</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="chart.html" >
+                                <span class="nav-text">Achats</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="chart.html" >
+                                <span class="nav-text">Store Credit</span>
+                              </a>
+                            </li>
+                            
+                          </ul>
+                        </li>
+                      </ul>
+                    </nav>
+                </div>
+              
+              </div>
+        </div>
+        <!-- / -->
+
+        <!-- content -->
+        <div id="content" class="app-content box-shadow-z2 bg " role="main">
+            <div class="app-header white bg b-b">
+                <div class="navbar">
+                    <a data-toggle="modal" data-target="#aside" class="navbar-item pull-left hidden-lg-up p-r m-a-0">
+                        <i class="ion-navicon"></i>
+                    </a>
+                    <div class="navbar-item pull-left h5" onClick="Menu();" id="pageTitle">&#9776; </div>
+                    <!-- nabar right -->
+                   
+                    <!-- / navbar right -->
+                </div>
+            </div>
+
+            <div class="app-body">
+
+                <!-- ############ PAGE START-->
+                <div class="padding">
+
+
+                    <div class="row">
+
+
+                        <div class="col-sm-12 col-md-12">
+                            <div class=" bg p-x">
+                                <div class="row">
+                                    <div class="col-sm-6 push-sm-6">
+                                        <div class="p-y text-center text-sm-right">
+                                            <a href="#" class="inline p-x text-center">
+                                                <span class="h6 gray block m-a-0">Sauvegarder</span>
+
+                                            </a>
+                                            <a href="#" class="inline p-x  text-center">
+                                                <span class="h6 gray block m-a-0">Sauvegarder et quitter</span>
+
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 pull-sm-6">
+                                        <div class=" clearfix nav-active-info">
+                                            <a href="list-four.html" class="retour block m-a-0 color-blue"><span
+                                                    style='font-size:30px;padding-top: 6px;'>&#8592;</span> Retour aux
+                                                fournisseurs</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="box " style="margin-top:.5%;">
+                                <div class="box-header box-header1">
+                                    <h3 style="float:left">Commande n°12345</h3>
+                                    <span type="submit" class="btn warning  cours">En cours</span>
+                                </div>
+
+                                <div class=" p-a text-right">
+                                    <button type="submit" class="btn btn-outline b-danger text-danger">Annuler la
+                                        commande</button>
+                                </div>
+
+
+
+
+                                <div style="margin-top:70px;">
+
+                                    <div>
+
+
+                                        <div>
+                                              <div class=" p-a text-right">
+                                                    <button type="submit" class="btn btn-outline b-danger text-danger">Annuler la
+                                                        commande</button>
+                                                </div>
+                                            <div class="box ">
+
+                                              
+
+
+                                               <div class="table-responsive">
+                                                <div class="row ">
+                                                    <div class="col-md-5 ml-5 mb-2  " class="">
+                                                        <ul class="nav navbar-nav">
+                                                            <li class="mb-2  mt-2">Informations utilisateur :</li>
+                                                            <li class="color-blue">Jordane Parisi</li>
+                                                            <li>jordane.parisi@gmail.com</li>
+                                                            <li class="mb-2">50 avenue de Rompsay 17000 La Rochelle</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-5 pull-right">
+                                                        <ul class="nav navbar-nav">
+                                                            <li class="mb-2  mt-2">Informations utilisateur :</li>
+                                                            <li class="color-blue">Jordane Parisi</li>
+                                                            <li>jordane.parisi@gmail.com</li>
+                                                            <li class="mb-2">50 avenue de Rompsay 17000 La Rochelle</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                    <table class="table table-striped b-t">
+                                                        <thead>
+                                                            <tr>
+                                                                
+                                                                <th>#</th>
+                                                                <th>Produits</th>
+                                                                <th>Qté</th>
+                                                                <th>€ PU HT</th>
+                                                                <th>% TVA</th>
+                                                                <th>€ TVA</th>
+                                                                <th>€ TTC</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                              
+                                                                <td>  1  </td>
+                                                                <td><button class="btn btn-fw success">Product1</button></td>
+                                                                <td>1</td>
+                                                                <td>140</td>
+                                                                <td>10%</td>
+                                                                <td>16</td>
+                                                                <td>154</td>
+                                                                
+                                                            </tr>
+                                                            <tr>
+                                                                <td>  2  </td>
+                                                                <td><button class="btn btn-fw success">Product2</button></td>
+                                                                <td>1</td>
+                                                                <td>140</td>
+                                                                <td>10%</td>
+                                                                <td>16</td>
+                                                                <td>154</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>    </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>TOTAL HT</td>
+                                                                <td> 160</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>    </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>TOTAL TVA</td>
+                                                                <td> 160</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>    </td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td>TOTAL TTC</td>
+                                                                <td> 160</td>
+                                                            </tr>
+
+
+                                                        </tbody>
+
+                                                    </table>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                  
+
+                </div>
+            </div>
+
+            <!-- ############ PAGE END-->
+
+        </div>
+    </div>
+    <!-- / -->
+
+
+
+    <!-- ############ LAYOUT END-->
+    </div>
+
+    <!-- build:js scripts/app.min.js -->
+    <!-- jQuery -->
+    <script src="libs/jquery/dist/jquery.js"></script>
+    <!-- Bootstrap -->
+    <script src="libs/tether/dist/js/tether.min.js"></script>
+    <script src="libs/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- core -->
+    <script src="libs/jQuery-Storage-API/jquery.storageapi.min.js"></script>
+    <script src="libs/PACE/pace.min.js"></script>
+    <script src="libs/jquery-pjax/jquery.pjax.js"></script>
+    <script src="libs/blockUI/jquery.blockUI.js"></script>
+    <script src="libs/jscroll/jquery.jscroll.min.js"></script>
+
+    <script src="scripts/config.lazyload.js"></script>
+    <script src="scripts/ui-load.js"></script>
+    <script src="scripts/ui-jp.js"></script>
+    <script src="scripts/ui-include.js"></script>
+    <script src="scripts/ui-form.js"></script>
+
+    <script src="scripts/ui-nav.js"></script>
+    <script src="scripts/multiselect.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/ajax.js"></script>
+    <!-- endbuild -->
+    <script>
+        function Menu() {
+
+            $('#aside').toggleClass('folded');
+
+
+        }
+        $(function () {
+            $('.multiselect-ui').multiselect({
+                includeSelectAllOption: true
+            });
+        });
+    </script>
+</body>
+
+</html>
