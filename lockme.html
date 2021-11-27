@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>aside - Bootstrap 4 web application</title>
+  <meta name="description" content="Responsive, Bootstrap, BS4" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- for ios 7 style, multi-resolution icon of 152x152 -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-barstyle" content="black-translucent">
+  <link rel="apple-touch-icon" href="images/logo.png">
+  <meta name="apple-mobile-web-app-title" content="Flatkit">
+  <!-- for Chrome on Android, multi-resolution icon of 196x196 -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="shortcut icon" sizes="196x196" href="images/logo.png">
+  
+  <!-- style -->
+  <link rel="stylesheet" href="css/animate.css/animate.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/glyphicons/glyphicons.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/material-design-icons/material-design-icons.css" type="text/css" />
+  <link rel="stylesheet" href="css/ionicons/css/ionicons.min.css" type="text/css" />
+
+  <link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+
+  <!-- build:css css/styles/app.min.css -->
+  <link rel="stylesheet" href="css/styles/app.css?v=1" type="text/css" />
+  <link rel="stylesheet" href="css/styles/style.css?v=4" type="text/css" />
+  <!-- endbuild -->
+  <link rel="stylesheet" href="css/styles/font.css" type="text/css" />
+</head>
+<body>
+  <div class="app" id="app">
+
+<!-- ############ LAYOUT START-->
+
+  <!-- aside -->
+  <div id="aside" class="app-aside fade nav-dropdown black">
+    <!-- fluid app aside -->
+    <div class="navside dk" data-layout="column">
+      <div class="navbar no-radius text-center">
+        <!-- brand -->
+        <a href="index.html" class="navbar-brand">
+        	
+        
+        	<span class="hidden-folded inline">Spendlly Admin</span>
+        </a>
+        <!-- / brand -->
+      </div>
+      <div data-flex class="hide-scroll">
+          <nav class="scroll nav-stacked nav-stacked-rounded nav-color">
+            
+            <ul class="nav" data-ui-nav>
+              <li class="nav-header hidden-folded">
+                <span class="text-xs">&nbsp;</span>
+              
+              </li>
+              <li>
+                <a href="dashboard.html" class="b-danger active">
+                  <span class="nav-icon text-white no-fade">
+                    <i class="ion-filing"></i>
+                  </span>
+                  <span class="nav-text">Dashboard</span>
+                </a>
+              </li>
+             
+            
+           
+              <li>
+                <a>
+                  <span class="nav-caret">
+                    <i class="fa fa-caret-down"></i>
+                  </span>
+                  <span class="nav-icon">
+                    <i class="fa fa-barcode"></i>
+                  </span>
+                  <span class="nav-text">Produits</span>
+                </a>
+                <ul class="nav-sub nav-mega nav-mega-3">
+                  <li>
+                    <a href="ui.arrow.html" >
+                      <span class="nav-text">Liste des Produits</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.box.html" >
+                      <span class="nav-text">Liste des marques</span>
+                    </a>
+                  </li>
+                 
+              </ul>
+              <li>
+                <a>
+                  <span class="nav-caret">
+                    <i class="fa fa-caret-down"></i>
+                  </span>
+                  <span class="nav-icon">
+                    <i class="fa fa-dollar"></i>
+                  </span>
+                  <span class="nav-text">Ventes</span>
+                </a>
+                <ul class="nav-sub nav-mega">
+                  <li>
+                    <a href="profile.html" >
+                      <span class="nav-text">Clients</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="setting.html" >
+                      <span class="nav-text">Commandes</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="search.html" >
+                      <span class="nav-text">Factures</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="faq.html" >
+                      <span class="nav-text">Avoirs</span>
+                    </a>
+                  </li>
+               
+                </ul>
+              </li>
+            
+              <li>
+                <a>
+                  <span class="nav-caret">
+                    <i class="fa fa-caret-down"></i>
+                  </span>
+                  <span class="nav-icon">
+                    <i class="fa fa-tag"></i>
+                  </span>
+                  <span class="nav-text">Achats</span>
+                </a>
+                <ul class="nav-sub">
+                  <li>
+                    <a href="form.layout.html" >
+                      <span class="nav-text">Liste des fournisseurs</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="form.element.html" >
+                      <span class="nav-text">Commandes</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="form.validation.html" >
+                      <span class="nav-text">Approvisionement</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="form.select.html" >
+                      <span class="nav-text">Inventaire</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="form.editor.html" >
+                      <span class="nav-text">Paiments fournisseurs</span>
+                    </a>
+                  </li>
+                 
+                </ul>
+              </li>
+            
+              <li>
+                <a>
+                  <span class="nav-caret">
+                    <i class="fa fa-caret-down"></i>
+                  </span>
+                  <span class="nav-icon">
+                    <i class="fa fa-list"></i>
+                  </span>
+                  <span class="nav-text">Comptablite</span>
+                </a>
+                <ul class="nav-sub">
+                  <li>
+                    <a href="static.html" >
+                      <span class="nav-text">Export facture Clients</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="datatable.html" >
+                      <span class="nav-text">Export Command fournisseurs</span>
+                    </a>
+                  </li>
+                  <!-- <li>
+                    <a href="footable.html" >
+                      <span class="nav-text">Footable</span>
+                    </a>
+                  </li> -->
+                </ul>
+              </li>
+              <li>
+                <a>
+                  <span class="nav-caret">
+                    <i class="fa fa-caret-down"></i>
+                  </span>
+                  <span class="nav-icon">
+                    <i class="fa  fa-bar-chart-o"></i>
+                   
+                  </span>
+                  <span class="nav-text">Charts</span>
+                </a>
+                <ul class="nav-sub">
+                  <li>
+                    <a href="chart.html" >
+                      <span class="nav-text">Ventes</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="chartjs.html" >
+                      <span class="nav-text">Achats</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="chartjs.html" >
+                      <span class="nav-text">Store Credit</span>
+                    </a>
+                  </li>
+                  
+                </ul>
+              </li>
+            </ul>
+          </nav>
+      </div>
+    
+    </div>
+  </div>
+  <!-- / -->
+  
+  <!-- content -->
+  <div id="content" class="app-content box-shadow-z2 bg " role="main">
+    <div class="app-header white bg b-b">
+          <div class="navbar" >
+                <a data-toggle="modal" data-target="#aside" class="navbar-item pull-left hidden-lg-up p-r m-a-0">
+                  <i class="ion-navicon"></i>
+                </a>
+                <div class="navbar-item pull-left h5"  onClick="Menu();" id="pageTitle">&#9776; </div>
+                <!-- nabar right -->
+                <ul class="nav navbar-nav pull-right">
+                  <li class="nav-item dropdown pos-stc-xs">
+                    <a class="nav-link clear" data-toggle="dropdown">
+                      <i class="ion-android-notifications-none w-24"></i>
+                      <span class="label up p-a-0 danger"></span>
+                    </a>
+                    <!-- dropdown -->
+                    <div class="dropdown-menu pull-right w-xl animated fadeIn no-bg no-border no-shadow">
+                        <div class="scrollable" style="max-height: 220px">
+                          <ul class="list-group list-group-gap m-a-0">
+                            <li class="list-group-item dark-white box-shadow-z0 b">
+                              <span class="pull-left m-r">
+                                <img src="images/a0.jpg" alt="..." class="w-40 img-circle">
+                              </span>
+                              <span class="clear block">
+                                Use awesome <a href="#" class="text-primary">animate.css</a><br>
+                                <small class="text-muted">10 minutes ago</small>
+                              </span>
+                            </li>
+                            <li class="list-group-item dark-white box-shadow-z0 b">
+                              <span class="pull-left m-r">
+                                <img src="images/a1.jpg" alt="..." class="w-40 img-circle">
+                              </span>
+                              <span class="clear block">
+                                <a href="#" class="text-primary">Joe</a> Added you as friend<br>
+                                <small class="text-muted">2 hours ago</small>
+                              </span>
+                            </li>
+                            <li class="list-group-item dark-white text-color box-shadow-z0 b">
+                              <span class="pull-left m-r">
+                                <img src="images/a2.jpg" alt="..." class="w-40 img-circle">
+                              </span>
+                              <span class="clear block">
+                                <a href="#" class="text-primary">Danie</a> sent you a message<br>
+                                <small class="text-muted">1 day ago</small>
+                              </span>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                    <!-- / dropdown -->
+                  </li>
+                  <li class="nav-item dropdown pos-stc-xs">
+                    <a class="nav-link" data-toggle="dropdown">
+                      <i class="fa fa-gear w-24"></i>
+                    </a>
+                    
+                  </li>
+            
+                  <li class="nav-item dropdown">
+                    <a class="nav-link clear" data-toggle="dropdown">
+                      <i class="fa fa-user w-24"></i>
+                    </a>
+                    <div class="dropdown-menu w dropdown-menu-scale pull-right">
+                      <a class="dropdown-item" href="profile.html">
+                        <span>Profile</span>
+                      </a>
+                      <a class="dropdown-item" href="setting.html">
+                        <span>Settings</span>
+                      </a>
+                      <a class="dropdown-item" href="app.inbox.html">
+                        <span>Inbox</span>
+                      </a>
+                      <a class="dropdown-item" href="app.message.html">
+                        <span>Message</span>
+                      </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="docs.html">
+                        Need help?
+                      </a>
+                      <a class="dropdown-item" href="signin.html">Sign out</a>
+                    </div>
+                  </li>
+                </ul>
+                <!-- / navbar right -->
+          </div>
+    </div>
+ 
+    <div class="app-body">
+
+<!-- ############ PAGE START-->
+<!-- ############ PAGE START-->
+<div class="padding">
+  <div class="box">
+    <div class="box-header">
+     <!--  <h2>DataTables</h2> -->
+    </div>
+    <div class="table-responsive" id="datatable">
+      <table data-ui-jp="dataTable" data-ui-options="{
+
+            sAjaxSource: 'func/table_data.php',
+          lengthChange: false,
+          sAjaxDataProp: '',
+          buttons: [ 'copy', 'excel', 'pdf', 'colvis' ],
+          aoColumns: [
+            
+            { mData: 'first_name' },
+             { mData: 'sur_name' },
+              { mData: 'email' },
+              { mData: 'barcode' },
+               { mData: 'address1' },
+               { mData: 'address2' },
+               { mData: 'landmark' },
+               { mData: 'city' }, 
+              { mData: 'region' },
+              { mData: 'pobox' }
+             
+           
+          ],
+          'initComplete': function () {
+            this.api().buttons().container()
+              .appendTo( '#datatable .col-md-6:eq(0)' );
+          }
+        }" class="table table-striped b-t b-b">
+        <thead>
+          <tr>
+            
+            <th  style="width:10%">Reference</th>
+            <th  style="width:10%">Raision sociale</th>
+            <th  style="width:10%">Statut</th>
+            <th  style="width:15%">Tx de commission</th>
+            <th  style="width:10%">Commandes effectuees</th>
+            <th  style="width:10%">Commandes en</th>
+            <th  style="width:10%">Landmark</th>
+            <th  style="width:10%">City</th>
+            <th  style="width:10%">Region</th>
+            <th  style="width:5%">PO Box</th>
+            
+            
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ############ PAGE END-->
+
+<!-- ############ PAGE END-->
+
+    </div>
+  </div>
+  <!-- / -->
+
+  
+
+<!-- ############ LAYOUT END-->
+  </div>
+
+<!-- build:js scripts/app.min.js -->
+<!-- jQuery -->
+  <script src="libs/jquery/dist/jquery.js"></script>
+<!-- Bootstrap -->
+  <script src="libs/tether/dist/js/tether.min.js"></script>
+  <script src="libs/bootstrap/dist/js/bootstrap.js"></script>
+<!-- core -->
+  <script src="libs/jQuery-Storage-API/jquery.storageapi.min.js"></script>
+  <script src="libs/PACE/pace.min.js"></script>
+  <script src="libs/jquery-pjax/jquery.pjax.js"></script>
+  <script src="libs/blockUI/jquery.blockUI.js"></script>
+  <script src="libs/jscroll/jquery.jscroll.min.js"></script>
+
+  <script src="scripts/config.lazyload.js"></script>
+  <script src="scripts/ui-load.js"></script>
+  <script src="scripts/ui-jp.js"></script>
+  <script src="scripts/ui-include.js"></script>
+  <script src="scripts/ui-form.js"></script>
+
+  <script src="scripts/ui-nav.js"></script>
+
+  <script src="scripts/app.js"></script>
+  <script src="scripts/ajax.js"></script>
+<!-- endbuild -->
+<script>
+
+  function Menu()
+  {
+    
+    $('#aside').toggleClass('folded');
+  
+    
+  }
+  $(document).ready(function () {
+    
+$('#datatable thead tr').clone(true).appendTo( '#datatable thead' );
+$('#datatable thead tr:eq(1) th').each( function (i) {
+  var title = $(this).text();
+  $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+
+  $( 'input', this ).on( 'keyup change', function () {
+      if ( table.column(i).search() !== this.value ) {
+          table
+              .column(i)
+              .search( this.value )
+              .draw();
+      }
+  } );
+} );
+  });
+</script>
+</body>
+</html>
